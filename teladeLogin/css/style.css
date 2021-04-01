@@ -1,0 +1,20 @@
+html{
+    margin: 50px;
+    z-index: 50%;
+}
+
+.container {
+    padding: 40px 0;
+    
+}
+
+
+#logo{
+    transition: color .3s ease;
+}
+
+
+#logo:hover{
+    color: green;   
+}
+

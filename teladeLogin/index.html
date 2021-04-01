@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div id="logo" class="row flow-text center-align">
+        <i class="large material-icons">storefront</i>
+        <h4>Faça o seu Login</h4>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <form action="">
+
+                <div class="input-field">
+                    <i class="material-icons prefix">email</i>
+                    <input id="email_prefix" type="text" class="validate">
+                    <label for="email_prefix">Endereço de E-mail</label>
+                </div>     
+
+                <div class="input-field">
+                    <i class="material-icons prefix">lock</i>
+                    <input id="lock_prefix" type="password">
+                    <label for="lock_prefix">Senha</label>
+                </div>
+
+                    <button class="btn waves-effect waves-light right col s12 l2" type="submit" name="action">Login
+                        <i class="material-icons right">send</i>
+                    </button>
+            </form>   
+            <p class="hide-on-med-and-down">Esqueceu sua senha? <a class="truncate" href="#">Redefina Aqui</a></p>
+        </div>
+        <p class="hide-on-large-only">Esqueceu sua senha? <a class="truncate" href="#">Redefina Aqui</a></p>
+    </div>
+
+        
+    <script src="js/materialize.js"></script>
+</body>
+</html>
